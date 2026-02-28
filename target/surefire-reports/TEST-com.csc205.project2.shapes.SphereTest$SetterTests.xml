@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.csc205.project2.shapes.SphereTest$SetterTests" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects\School\2026 Spring\CSC205AA\project-2\target\test-classes;C:\Projects\School\2026 Spring\CSC205AA\project-2\target\classes;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\ukarimu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\ukarimu\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ukarimu\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ukarimu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ukarimu\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ukarimu\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\OpenJDK-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\ukarimu\AppData\Local\Temp\surefire15459263782798968237\surefirebooter-20260227201316235_3.jar C:\Users\ukarimu\AppData\Local\Temp\surefire15459263782798968237 2026-02-27T20-13-16_118-jvmRun1 surefire-20260227201316235_1tmp surefire_0-20260227201316235_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Projects\School\2026 Spring\CSC205AA\project-2\target\test-classes;C:\Projects\School\2026 Spring\CSC205AA\project-2\target\classes;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\ukarimu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0\junit-jupiter-engine-5.11.0.jar;C:\Users\ukarimu\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\ukarimu\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\ukarimu\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ukarimu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\ukarimu\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ukarimu\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ukarimu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\OpenJDK-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Projects\School\2026 Spring\CSC205AA\project-2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ukarimu\AppData\Local\Temp\surefire15459263782798968237\surefirebooter-20260227201316235_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="ukarimu"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ukarimu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ukarimu\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\Projects\School\2026 Spring\CSC205AA\project-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\OpenJDK-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;c:\Users\ukarimu\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\ukarimu\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Alacritty\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\WireGuard\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;c:\Users\ukarimu\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\ukarimu\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\GitHub CLI\;C:\Program Files\Java\OpenJDK-24\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Meld\;C:\instantclient_23_9;C:\Users\ukarimu\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ukarimu\AppData\Local\Programs\Python\Python312\;C:\Users\ukarimu\AppData\Local\Programs\Python\Launcher\;C:\Users\ukarimu\AppData\Local\Microsoft\WindowsApps;C:\Users\ukarimu\AppData\Local\Microsoft\WinGet\Links;C:\Users\ukarimu\AppData\Local\Microsoft\WinGet\Packages\Ventoy.Ventoy_Microsoft.Winget.Source_8wekyb3d8bbwe\ventoy-1.1.05;C:\Users\ukarimu\AppData\Local\Programs\VSCodium\bin;C:\Users\ukarimu\AppData\Local\Programs\Ollama;C:\Users\ukarimu\AppData\Roaming\npm;C:\Users\ukarimu\go\bin;C:\Users\ukarimu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Apache\Maven\bin;%IntelliJ IDEA%;C:\Users\ukarimu\AppData\Local\Programs\Espanso;C:\Users\ukarimu\AppData\Local\Programs\Warp\bin;c:\Users\ukarimu\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="setRadiusUpdates" classname="com.csc205.project2.shapes.SphereTest$SetterTests" time="0.001">
+    <system-err><![CDATA[Feb 27, 2026 8:13:17 PM com.csc205.project2.shapes.Shape3D <init>
+INFO: Created Shape3D: name='Red Ball', color='Red'
+Feb 27, 2026 8:13:17 PM com.csc205.project2.shapes.Sphere <init>
+INFO: Created Sphere 'Red Ball' with radius=5.0
+Feb 27, 2026 8:13:17 PM com.csc205.project2.shapes.Sphere setRadius
+INFO: Updating radius of Sphere 'Red Ball' from 5.0 to 7.5
+]]></system-err>
+  </testcase>
+</testsuite>
